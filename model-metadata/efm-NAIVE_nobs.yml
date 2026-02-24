@@ -1,0 +1,11 @@
+team_abbr: "efm"
+model_abbr: "NAIVE_nobs"
+model_contributors: [
+  {
+    "name": "Ely Miller",
+    "email": "efinn2019@gmail.com"
+  }
+]
+designated_model: false
+methods_long: "Baseline model, using the NAIVE model type with no bootstrapping of the posterior"
+ensemble_of_models: false
