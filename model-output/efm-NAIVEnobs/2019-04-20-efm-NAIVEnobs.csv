@@ -1,4 +1,4 @@
-reference_date,location,target,horizon,target_end_date,output_type,output_type_id,value
+origin_date,location,target,horizon,target_end_date,output_type,output_type_id,value
 2019-04-20,HHS Region 1,ili perc,1,2019-04-27,quantile,0.01,1.2192290843720988
 2019-04-20,HHS Region 1,ili perc,1,2019-04-27,quantile,0.025,1.353777214341604
 2019-04-20,HHS Region 1,ili perc,1,2019-04-27,quantile,0.05,1.4694960288487977
