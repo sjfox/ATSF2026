@@ -5,7 +5,7 @@ model_abbr: "rw_driftNOBS"
 designated_model: true
 model_contributors: [
   {
-    "name": "Hugh raggett",
+    "name": "Hugh Raggett",
     "affiliation": "Northern Arizona University",
     "email": "hcr64@nau.edu",
     "orcid": "0009-0002-3634-7156"
