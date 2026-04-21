@@ -1,7 +1,7 @@
 team_name: "aziz"
 team_abbr: "aziz"
-model_name: "snaivenonbs"
-model_abbr: "snaivenonbs"
+model_name: "ata266-snaivenonbs"
+model_abbr: "ata266-snaivenonbs"
 designated_model: true
 model_contributors: [
   {
