@@ -1,0 +1,19 @@
+team_name: "efm"
+team_abbr: "efm"
+model_name: "mechanisticSIR"
+model_abbr: "mechanisticSIR"
+designated_model: true
+model_contributors: [
+  {
+    "name": "Ely Miller",
+    "affiliation": "Northern Arizona University",
+    "email": "efinn2019@gmail.com",
+    "orcid": "0000-0003-3480-8377"
+  }
+]
+license: "CC-BY-4.0"
+data_inputs: ILI%
+methods: Forecasts based on a weekly updated compartmental model (SIR) that re-estimates parameters to reflect changes in ILI%. More recent data is weighted more than older data.  
+methods_long: Uses a compartmental model developed in BioNetGenLanguage (BNGL) and parameterized by PyBioNetFit with built-in adaptive MCMC sampling of the parameter posterior to enable bayesian uncertainty quantification.
+ensemble_of_models: false
+ensemble_of_hub_models: false
