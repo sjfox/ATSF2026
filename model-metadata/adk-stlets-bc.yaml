@@ -1,0 +1,19 @@
+team_name: "adk"
+team_abbr: "adk"
+model_name: "stlets-bc"
+model_abbr: "stlets-bc"
+designated_model: true
+model_contributors: [
+  {
+    "name": "Andrew Kerfoot",
+    "affiliation": "Northern Arizona University",
+    "email": "adk254@nau.edu",
+    "orcid": "0009-0004-2902-3895"
+  }
+]
+license: "CC-BY-4.0"
+data_inputs: ILI%
+methods: Forecasts are generated using STL decomposition with an ETS model fit to the seasonally adjusted and boxcox transformed series.
+methods_long: This model uses historical ILI percentage observations for each location and target. For each forecast origin date, the training data are filtered to observations available up to that date. The model applies STL decomposition to separate seasonal and non-seasonal components, using a periodic seasonal window. An ETS model is then fit to the seasonally adjusted component, and four-week-ahead probabilistic forecasts are generated from the resulting forecast distribution. 
+ensemble_of_models: false
+ensemble_of_hub_models: false
