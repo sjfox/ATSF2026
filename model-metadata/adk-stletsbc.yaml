@@ -1,7 +1,7 @@
 team_name: "adk"
 team_abbr: "adk"
-model_name: "stlets-bc"
-model_abbr: "stlets-bc"
+model_name: "stletsbc"
+model_abbr: "stletsbc"
 designated_model: true
 model_contributors: [
   {
