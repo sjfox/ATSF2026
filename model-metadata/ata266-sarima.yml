@@ -1,0 +1,18 @@
+team_name: "ata266"
+team_abbr: "ata266"
+model_name: "sarima"
+model_abbr: "sarima"
+designated_model: true
+model_contributors: [
+  {
+    "name": "Aziz AlShamsi",
+    "affiliation": "Northern Arizona University",
+    "email": "ata266@nau.edu"
+  }
+]
+license: "CC-BY-4.0"
+data_inputs: ILI%
+methods: Forecasts based on the seasonal ARIMA use bootstrapped residuals for producing forecast uncertainty. 
+methods_long: Uses the ARIMA(), ETS(), and SNAIVE() functions in the fable package to make forecasts and then generates bootstrapped prediction intervals for only the seasonal ARIMA model from the residuals using the generate() function in fable.The ETS and SNAIVE models were used as benchmarks in the development process.
+ensemble_of_models: false
+ensemble_of_hub_models: false
