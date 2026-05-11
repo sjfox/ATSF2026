@@ -2,7 +2,7 @@ team_name: "Reger"
 team_abbr: "KReger"
 model_name: "STL Decomposition with ARIMA and Box-Cox"
 model_abbr: "stl_arima_bc"
-designated_model: false
+designated_model: true
 model_contributors: [
   {
     "name": "Karl Reger",

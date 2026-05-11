@@ -2,7 +2,7 @@ team_name: "Reger"
 team_abbr: "KReger"
 model_name: "Bayesian Structural Time Series with Annual Seasonality"
 model_abbr: "bsts_seasonal"
-designated_model: false
+designated_model: true
 model_contributors: [
   {
     "name": "Karl Reger",

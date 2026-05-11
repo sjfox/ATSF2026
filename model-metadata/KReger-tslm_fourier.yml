@@ -2,7 +2,7 @@ team_name: "Reger"
 team_abbr: "KReger"
 model_name: "Regression with Fourier Seasonality and Bootstrap"
 model_abbr: "tslm_fourier"
-designated_model: false
+designated_model: true
 model_contributors: [
   {
     "name": "Karl Reger",

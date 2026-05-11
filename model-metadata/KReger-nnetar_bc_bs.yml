@@ -2,7 +2,7 @@ team_name: "Reger"
 team_abbr: "KReger"
 model_name: "Neural Network Autoregression with Box-Cox and Bootstrap"
 model_abbr: "nnetar_bc_bs"
-designated_model: false
+designated_model: true
 model_contributors: [
   {
     "name": "Karl Reger",
